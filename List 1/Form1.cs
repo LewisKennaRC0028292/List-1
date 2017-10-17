@@ -41,6 +41,13 @@ namespace List_1
             nums.Add(1);
             printNums(nums);
             richTextBox1.AppendText("\n================\n");
+            nums.Add(50);
+            printNums(nums);
+            richTextBox1.AppendText("\n================\n");
+            nums.Remove(2);
+            nums.Remove(3);
+            printNums(nums);
+            richTextBox1.AppendText("\n================\n");
 
 
         }
